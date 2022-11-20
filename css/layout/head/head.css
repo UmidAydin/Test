@@ -1,0 +1,25 @@
+header {
+    position: fixed;
+    width: 100vw;
+    height: 58px;
+    background-color: white;
+    box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+header nav .left-side,.right-side{
+    display: flex;
+    align-items: center;
+}
+
+header nav .right-side .user-profile img{
+width: 42px;
+height: 42px;
+border-radius: 50%;
+}

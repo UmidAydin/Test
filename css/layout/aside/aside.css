@@ -1,0 +1,19 @@
+aside{
+    position: fixed;
+    width: 15%;
+    height: calc(100vh - 58px - 58px);
+    left: 0px;
+    top: 58px;
+    background-color: #fcfcfd;
+    overflow-y: auto;
+}
+
+aside .user-name{
+    height: 58px;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color: gray;
+    width: 15%;
+}
